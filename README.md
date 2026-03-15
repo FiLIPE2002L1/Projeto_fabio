@@ -7,7 +7,7 @@ O objetivo do programa é determinar o número mínimo de salas necessárias par
 - Backtracking
 - Branch and Bound
 
-Esses algoritmos são utilizados para explorar diferentes possibilidades de alocação de salas, garantindo que aulas com horários conflitantes não sejam colocadas na mesma sala.
+Esses algoritmos exploram diferentes possibilidades de alocação de salas, garantindo que aulas com horários conflitantes não sejam colocadas na mesma sala.
 
 ---
 
@@ -18,14 +18,14 @@ O projeto está organizado da seguinte forma:
 src/
 
 algorithms/
-- BacktrackingSolver.java
-- BranchBoundSolver.java
+BacktrackingSolver.java
+BranchBoundSolver.java
 
 model/
-- Aula.java
+Aula.java
 
 util/
-- ConflitoUtil.java
+ConflitoUtil.java
 
 Main.java
 
@@ -45,7 +45,7 @@ Main.java
 A entrada segue o formato:
 
 n  
-inicio fim
+inicio fim  
 
 Onde:
 
@@ -58,8 +58,8 @@ Os horários são representados por números inteiros.
 ### Exemplo de Entrada
 
 6  
-9 10  
-9 12  
+9  10  
+9  12  
 11 13  
 12 14  
 13 15  
@@ -71,8 +71,8 @@ Os horários são representados por números inteiros.
 
 O programa retorna:
 
-- O número mínimo de salas necessárias
-- A alocação de cada aula em uma sala
+- o número mínimo de salas necessárias
+- a alocação de cada aula em uma sala
 
 ### Exemplo de Saída
 
