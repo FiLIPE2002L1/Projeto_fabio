@@ -35,7 +35,7 @@ Main.java
 
 1. Baixe ou clone este repositório.
 2. Abra o projeto em uma IDE Java (IntelliJ IDEA, Eclipse ou similar).
-3. Compile o projeto.
+3. Localize a classe `Main.java` no pacote `app`.
 4. Execute a classe **Main.java**.
 
 ---
