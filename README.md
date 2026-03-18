@@ -1,5 +1,7 @@
 # Alocação de Salas de Aula
 
+OBS: Existem dois códigos o primeiro é o normal (está na pasta src), e o segundo que consegue cronometrar o tempo e o número de podas (está na pasta src_times), a forma de execução é a mesma. 
+
 Projeto desenvolvido para a disciplina de Técnicas de Análise de Algoritmos.
 
 O objetivo do programa é determinar o número mínimo de salas necessárias para acomodar um conjunto de aulas, utilizando dois algoritmos clássicos de projeto de algoritmos:
