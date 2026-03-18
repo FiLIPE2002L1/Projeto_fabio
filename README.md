@@ -56,8 +56,9 @@ Onde:
 
 Os horários são representados por números inteiros.
 
-### Exemplo de Entrada
+### Exemplo de execução
 
+Entrada:
 6  
 9  10  
 9  12  
