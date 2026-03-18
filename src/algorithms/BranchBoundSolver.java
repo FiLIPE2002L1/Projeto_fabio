@@ -7,7 +7,6 @@ public class BranchBoundSolver {
 
     private int melhorSalas = Integer.MAX_VALUE;
     private int[] melhorSolucao;
-    private int podas = 0;
 
     public void resolver(Aula[] aulas) {
 
@@ -21,7 +20,6 @@ public class BranchBoundSolver {
     private void branchBound(Aula[] aulas, int[] salas, int aulaAtual, int salasUsadas) {
 
         if (salasUsadas >= melhorSalas) {
-            podas++;
             return;
         }
 
@@ -70,7 +68,5 @@ public class BranchBoundSolver {
 
             System.out.println((i + 1) + " " + melhorSolucao[i]);
         }
-
-        System.out.println("Podas: " + podas);
     }
 }
