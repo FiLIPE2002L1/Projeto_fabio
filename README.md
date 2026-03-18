@@ -27,6 +27,7 @@ Aula.java
 util/
 ConflitoUtil.java
 
+app/
 Main.java
 
 ---
@@ -35,7 +36,7 @@ Main.java
 
 1. Baixe ou clone este repositório.
 2. Abra o projeto em uma IDE Java (IntelliJ IDEA, Eclipse ou similar).
-3. Compile o projeto.
+3. Localize a classe `Main.java` no pacote `app`.
 4. Execute a classe **Main.java**.
 
 ---
@@ -55,8 +56,9 @@ Onde:
 
 Os horários são representados por números inteiros.
 
-### Exemplo de Entrada
+### Exemplo de execução
 
+Entrada:
 6  
 9  10  
 9  12  
