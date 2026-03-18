@@ -97,6 +97,8 @@ Onde:
 
 ## Autor
 
-Filipe Antonny Tavares de Santana  
+Filipe Antonny Tavares de Santana
+Emanuel Diogo Marinho de Souza
+Rafael Trajano do Nascimento 
 Curso de Ciência da Computação  
 Universidade Estadual da Paraíba
