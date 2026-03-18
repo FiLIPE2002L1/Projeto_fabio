@@ -1,10 +1,8 @@
-package app;
+package algorithms;
 
 import java.util.Scanner;
 
 import model.Aula;
-import algorithms.BacktrackingSolver;
-import algorithms.BranchBoundSolver;
 
 public class Main {
 
