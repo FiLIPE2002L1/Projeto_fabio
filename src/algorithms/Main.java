@@ -24,32 +24,11 @@ public class Main {
         System.out.println("Backtracking:");
 
         BacktrackingSolver backtracking = new BacktrackingSolver();
-
-        long inicioBack = System.nanoTime();
-
         backtracking.resolver(aulas);
-
-        long fimBack = System.nanoTime();
-
-        double tempoBack = (fimBack - inicioBack) / 1_000_000_000.0;
-
-        System.out.printf("Tempo: %.6f segundos\n", tempoBack);
-
 
         System.out.println("\nBranch and Bound:");
 
         BranchBoundSolver branchBound = new BranchBoundSolver();
-
-        long inicioBB = System.nanoTime();
-
         branchBound.resolver(aulas);
-
-        long fimBB = System.nanoTime();
-
-        double tempoBB = (fimBB - inicioBB) / 1_000_000_000.0;
-
-        System.out.printf("Tempo: %.6f segundos\n", tempoBB);
-
-        sc.close();
     }
 }
