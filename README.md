@@ -2,9 +2,7 @@
 
 # Algoritimos
 
-Para a primeira entrega, existem dois códigos o primeiro é o normal (está na pasta src), e o segundo que consegue cronometrar o tempo e o número de podas (está na pasta src_times), a forma de execução é a mesma.
-
-Para a segunda entrega, os códigos estão na pasta Entrega_02.
+Os códigos estão na pasta Entrega_02.
 
 Projeto desenvolvido para a disciplina de Técnicas de Análise de Algoritmos.
 
@@ -16,8 +14,6 @@ O objetivo do programa é determinar o número mínimo de salas necessárias par
 - Programação Dinâmica
 
 Esses algoritmos exploram diferentes possibilidades de alocação de salas, garantindo que aulas com horários conflitantes não sejam colocadas na mesma sala.
-
----
 
 ## Estrutura do Projeto
 
